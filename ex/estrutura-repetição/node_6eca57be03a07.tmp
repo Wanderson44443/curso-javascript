@@ -8,7 +8,7 @@ let paisB=200.000
 let taxaA = 3
 let taxaB = 1.5
  anos=0
- if ( paisA<paisB ){
+ while ( paisA<paisB ){
     anos=paisA +(paisA*taxaA)
      anos=paisB +(paisB*taxaB)
 
