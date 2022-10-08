@@ -15,4 +15,14 @@ let pokemonFoto = [
         document.write('<img src="${pokemonFoto[i]}" alt="${pokemonNome[i]}">')
         document.write("</div>")
     }
+    function QuemEhEssePokemon(pokemon){ 
+
     
+    if (pokemon=="pikachu"){
+        document.querySelector("#messagem").innerHTML="parabéns"
+    }else{
+        document.querySelector("#mensagem").innerHTML="infelizmente não é o pokemon"
+    }
+    document.querySelector("#pokemonFoto").style.filter=""
+    document.querySelector("#nome-pokemon").innerHTML="pikachu"
+}
